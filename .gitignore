@@ -1,0 +1,7 @@
+build/
+extdep/install
+extdep/download
+release/stage
+*.tar.gz
+*.zip
+linux-build/
