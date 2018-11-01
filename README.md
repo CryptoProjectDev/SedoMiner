@@ -2,6 +2,10 @@
 
 ![SEDO_small](http://sedocoin.org/wp-content/uploads/2018/10/logo_blue_240.png)
 
+[Deployed on ROPSTEN Ethereum](https://ropsten.etherscan.io/address/0x3c3f4afc4ae44a5486dfd5cdc1712fada97fbea4)
+
+[Deployed on MAINNET Ethereum](https://etherscan.io/address/0x0f00f1696218eaefa2d2330df3d6d1f94813b38f)
+
 This page describes the miner for **SEDO coin**.  For the regular ethereum miner, [click here](https://github.com/mining-visualizer/MVis-ethminer).
 
 This is a fork of MVis-tokenminer program https://github.com/mining-visualizer/MVis-tokenminer (you can use both SEDO miner and MVis token miner to mine SEDO coin, 0xbitcoin and all other compatible tokens)
@@ -22,14 +26,24 @@ This is a fork of MVis-tokenminer program https://github.com/mining-visualizer/M
 ```
 [Node]
 Host=http://your_mining_pool.com   
-RPCPort=8586
+RPCPort=8080
+...
+[SEDO]
+EthAddress=0x1234512345123451234512345123451234512345
+```
 
+* For **SOLO Mining**, you need to specify your mining pool and your ETH address. 
+```
+[Node]
+Host=https://ropsten.infura.io/f12d6274997840158b99b418f0ed8ec1f12d6274997840158b99b418f0ed8ec1 
+RPCPort=8545
+...
 [SEDO]
 EthAddress=0x1234512345123451234512345123451234512345
 EthAddressPrivateKey=*******
-TokenContract=0x3C3F4aFc4aE44A5486Dfd5Cdc1712FADA97FBEA4 // it is ropsten, change it to mainnet
+TokenContract=0x0F00f1696218EaeFa2D2330Df3D6D1f94813b38f 
 ```
-* All other settings in the `[SEDO]` section can be left as is.
+* All other settings in the `[SEDO]` section can be left as is or can be optimized.
 * You can also specify the pool mining address on the command line (-N).  See below for all command line options.
 * If your mining pool supports the **stratum protocol**, change the `RPCPort=8586` line to `StratumPort=9192`.  Consult with your mining pool for the actual port # to use.
 * For **Solo Mining**:
