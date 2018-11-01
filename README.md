@@ -29,7 +29,7 @@ Host=http://your_mining_pool.com
 RPCPort=8080
 ...
 [SEDO]
-EthAddress=0x1234512345123451234512345123451234512345
+EthAddress=YOUR_ETH_ADDRESS
 ```
 
 * For **SOLO Mining**, you need to specify your mining pool and your ETH address. 
@@ -39,8 +39,8 @@ Host=https://ropsten.infura.io/f12d6274997840158b99b418f0ed8ec1f12d6274997840158
 RPCPort=8545
 ...
 [SEDO]
-EthAddress=0x1234512345123451234512345123451234512345
-EthAddressPrivateKey=*******
+EthAddress=YOUR_ETH_ADDRESS
+EthAddressPrivateKeyYOUR_ETH_ADDRESS_PRIVATE_KEY
 TokenContract=0x0F00f1696218EaeFa2D2330Df3D6D1f94813b38f 
 ```
 * All other settings in the `[SEDO]` section can be left as is or can be optimized.
