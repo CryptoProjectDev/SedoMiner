@@ -19,7 +19,7 @@ This is a fork of MVis-tokenminer program https://github.com/mining-visualizer/M
 
 ### Installation
 
-* Unzip the [download package]() anywhere you like.  
+* Unzip the [download package](https://github.com/CryptoProjectDev/SedoMiner/releases) anywhere you like.  
 * Open up `SEDOminer.ini` using any text editor and set the following configuration items:
 * For **Pool Mining**, you need to specify your mining pool and your ETH address. 
 
