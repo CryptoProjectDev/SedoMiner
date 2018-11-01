@@ -40,7 +40,7 @@ RPCPort=8545
 ...
 [SEDO]
 EthAddress=YOUR_ETH_ADDRESS
-EthAddressPrivateKeyYOUR_ETH_ADDRESS_PRIVATE_KEY
+EthAddressPrivateKey=YOUR_ETH_ADDRESS_PRIVATE_KEY
 TokenContract=0x0F00f1696218EaeFa2D2330Df3D6D1f94813b38f 
 ```
 * All other settings in the `[SEDO]` section can be left as is or can be optimized.
