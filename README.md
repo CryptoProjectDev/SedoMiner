@@ -11,7 +11,7 @@ This page describes the miner for **SEDO coin**.  For the regular ethereum miner
 This is a fork of MVis-tokenminer program https://github.com/mining-visualizer/MVis-tokenminer (you can use both SEDO miner and MVis token miner to mine SEDO coin, 0xbitcoin and all other compatible tokens)
 
 * This miner should work with any GPU that supports OpenCL, ie. pretty much all AMDs and most NVidia.
-* Windows binaries can be downloaded from the  [Releases]() page, or you can build from source (see below).
+* Windows binaries can be downloaded from the  [Releases](https://github.com/CryptoProjectDev/SedoMiner/releases) page, or you can build from source (see below).
 * For Linux, the only option at present is to build from source.  See the instructions below.  
 * This miner supports both pool mining and solo mining. If you want to mine solo, you either need to run your own node, or use a public one like the ones Infura provides.
 * When in pool mining mode, a 1.0% dev fee is in effect. Every 4 hours it switches to 'dev fee mining' for a short period of time, based on the percent.
@@ -35,7 +35,7 @@ EthAddress=YOUR_ETH_ADDRESS
 * For **SOLO Mining**, you need to specify your mining pool and your ETH address. 
 ```
 [Node]
-Host=https://ropsten.infura.io/f12d6274997840158b99b418f0ed8ec1f12d6274997840158b99b418f0ed8ec1 
+Host=https://mainnet.infura.io/f12d6274997840158b99b418f0ed8ec1f12d6274997840158b99b418f0ed8ec1
 RPCPort=8545
 ...
 [SEDO]
