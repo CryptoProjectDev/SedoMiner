@@ -16,6 +16,20 @@ This is a fork of MVis-tokenminer program https://github.com/mining-visualizer/M
 * This miner supports both pool mining and solo mining. If you want to mine solo, you either need to run your own node, or use a public one like the ones Infura provides.
 * When in pool mining mode, a 1.0% dev fee is in effect. Every 4 hours it switches to 'dev fee mining' for a short period of time, based on the percent.
 
+### POOL !
+
+We launched a pool in pilot production.
+Mining is set to productive SEDO contract.
+At the moment, access to the pool is possible only by IP address:
+http://95.169.186.41/
+WEB port: 80
+Mining port: 8080
+In the near future, access to the pool will also be available under the domain name pool.sedocoin.org.
+I ask everyone to take it with the understanding that now our pool is working in test mode, so there may be overlays that we cannot see until the first solutions are obtained in a productive work environment.
+In the event that everything will be fine, we plan to make payments on the pool by the end of the day on 11/14/2018.
+At the end of pilot operation, the pool payments will become automatic, with an interval of 1 time per day.
+The pool commission is currently set at 25% - this roughly corresponds to our current estimated cost of the pool (in order to recoup the support of his work). The commission may be reduced in the future - in case the price of a coin rises or the maintenance of the pool becomes cheaper.
+We will inform you about all changes in the status of the pool. Please read our discord server for info: https://discord.gg/Ys7qCDP
 
 ### Installation
 
