@@ -18,12 +18,13 @@ This is a fork of MVis-tokenminer program https://github.com/mining-visualizer/M
 
 ### POOL !
 
-We launched a pool in pilot production.
+We launched a pool with Merge Mining support (0xBTC + SEDO), 3% fee.
+
 Mining is set to productive SEDO contract.
 At the moment, access to the pool is possible by address:
 http://pool.sedocoin.org
 WEB port: 80
-Mining port: 8080
+Mining port: 10002
 
 I ask everyone to take it with the understanding that now our pool is working in pilot mode, so there may be overlays that we cannot see until the first solutions are obtained in a productive work environment.
 At the end of pilot operation, the pool payments will become automatic, with an interval of 1 time per day.
