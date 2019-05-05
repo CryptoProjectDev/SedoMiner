@@ -26,10 +26,14 @@ http://pool.sedocoin.org
 WEB port: 80
 Mining port: 10002
 
-I ask everyone to take it with the understanding that now our pool is working in pilot mode, so there may be overlays that we cannot see until the first solutions are obtained in a productive work environment.
-At the end of pilot operation, the pool payments will become automatic, with an interval of 1 time per day.
-The pool commission is currently set at 25% - this roughly corresponds to our current estimated cost of the pool (in order to recoup the support of his work). The commission may be reduced in the future - in case the price of a coin rises or the maintenance of the pool becomes cheaper.
+The pool commission is currently set at 3%
+
 We will inform you about all changes in the status of the pool. Please read our discord server for info: https://discord.gg/Ys7qCDP
+
+Besides SEDOminer, you can also use other compatible Ethereum token miners, for example:
+https://github.com/mining-visualizer/MVis-tokenminer
+https://github.com/lwYeo/SoliditySHA3Miner
+is: https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/
 
 ### Installation
 
