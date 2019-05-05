@@ -31,9 +31,13 @@ The pool commission is currently set at 3%
 We will inform you about all changes in the status of the pool. Please read our discord server for info: https://discord.gg/Ys7qCDP
 
 Besides SEDOminer, you can also use other compatible Ethereum token miners, for example:
+
 https://github.com/mining-visualizer/MVis-tokenminer
+
 https://github.com/lwYeo/SoliditySHA3Miner
+
 is: https://bitbucket.org/LieutenantTofu/cosmic-v3/downloads/
+
 
 ### Installation
 
